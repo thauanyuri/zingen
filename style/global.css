@@ -35,6 +35,12 @@
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
+  
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --px-lg: 1.5rem; /*para dispositivo pequeno, o padding é 1.5rem, para dispositivo grande, o padding é 2rem que esta na @media -> root*/
 }
 
 html {
@@ -82,5 +88,11 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+   --py-base: 1.5rem;
+   --py-lg: 2.5rem;
+   --py-xl: 5rem;
+
+   --px-lg: 2rem; /*para dispositivo grande */
   }
 }
